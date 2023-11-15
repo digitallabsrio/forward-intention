@@ -1,0 +1,15 @@
+# Step #3 – add a new node
+print("Adding node17")
+hr.add_node("node17")
+nodes = hr.get_nodes(b"some data")
+nodes = hr.get_nodes(b"some data", replicas=2)
+nodes = hr.get_nodes(b"some other data", replicas=3)
+nodes = hr.get_nodes(b"some other of my data", replicas=2)
+nodes = hr.get_nodes(b"some data that should end on node17", replicas=2)
+## Output:
+# Adding node17
+# {'node11'}
+# {'node6', 'node11'}
+# {'node6', 'node2', 'node13'}
+# {'node5', 'node7'}
+# {'node17', 'node9'}

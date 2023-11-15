@@ -1,0 +1,12 @@
+# Run the first client in a first terminal
+$ python tooz-run-watchers.py client1 group
+
+# In another terminal run the second client
+$ python tooz-run-watchers.py client2 group
+
+# In the first terminal you will see
+<MemberJoinedGroup: group group1: +member client2>
+
+# Interrupt the client from the second terminal by pressing Ctrl-C
+# You will see in the first terminal ~3 seconds later:
+<MemberLeftGroup: group group1: -member client2>

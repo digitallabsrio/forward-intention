@@ -1,0 +1,6 @@
+def first(predicate, items):
+    for item in items:
+        if predicate(item):
+            return item
+
+print( first(lambda x: x > 0, [-1, 0, 1, 2]) )

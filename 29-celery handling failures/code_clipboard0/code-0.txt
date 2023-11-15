@@ -1,0 +1,4 @@
+@app.task(autoretry_for=(DatabaseError,))
+def record_visit(user_id):
+  database.increment_visitor_counter()
+  remote_api.record_last_visit_time(user_id)

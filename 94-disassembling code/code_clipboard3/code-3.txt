@@ -1,0 +1,9 @@
+import dis
+
+def x():
+    a = 42
+    def y():
+        return a
+    return y()
+
+dis.dis(x)

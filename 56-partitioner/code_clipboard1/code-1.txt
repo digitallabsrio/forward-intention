@@ -1,0 +1,4 @@
+b'8e6d3ff7-0dc7-4a71-aa39-8b1405cbc064': fetched https://httpbin.org/ bytes/0 (200)
+b'8e6d3ff7-0dc7-4a71-aa39-8b1405cbc064': fetched https://httpbin.org/ bytes/1 (200)
+b'8e6d3ff7-0dc7-4a71-aa39-8b1405cbc064': fetched https://httpbin.org/ bytes/2 (200)
+[...]

@@ -1,0 +1,2 @@
+$ heroku ps:scale web=5
+Scaling dynos... done, now running web at 5:Standard-1X.

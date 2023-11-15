@@ -1,0 +1,15 @@
+import dis
+
+def x():
+    return 42
+
+print('Disassembling x')
+dis.dis(x)
+
+def z():
+    def y():
+        return 42
+    return y()
+
+print('Disassembling z')
+dis.dis(z)

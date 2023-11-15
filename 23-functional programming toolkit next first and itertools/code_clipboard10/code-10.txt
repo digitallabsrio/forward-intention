@@ -1,0 +1,9 @@
+import itertools  
+import operator  
+  
+# initializing list  
+mylist = [1, 4, 5, 7]  
+mylist2= [11, 16, 15, 12]  
+mylist3 = [21, 26, 34, 42]  
+
+print (list(itertools.chain(mylist, mylist2, mylist3)))  

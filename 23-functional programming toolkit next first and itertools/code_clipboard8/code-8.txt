@@ -1,0 +1,5 @@
+import operator
+from functools import partial
+from first import first
+
+print(first([-1, 0, 1, 2], key=partial(operator.le, 0)))

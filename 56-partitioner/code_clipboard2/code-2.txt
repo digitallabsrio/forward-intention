@@ -1,0 +1,33 @@
+# Output from first instance:
+b'24ed57b0-5a8b-4497-9661-24b2d99e0cdb': fetched https://httpbin.org/ bytes/7 (200)
+b'24ed57b0-5a8b-4497-9661-24b2d99e0cdb': fetched https://httpbin.org/ bytes/9 (200)
+b'24ed57b0-5a8b-4497-9661-24b2d99e0cdb': fetched https://httpbin.org/ bytes/10 (200)
+b'24ed57b0-5a8b-4497-9661-24b2d99e0cdb': fetched https://httpbin.org/ bytes/11 (200)
+b'24ed57b0-5a8b-4497-9661-24b2d99e0cdb': fetched https://httpbin.org/ bytes/14 (200)
+b'24ed57b0-5a8b-4497-9661-24b2d99e0cdb': fetched https://httpbin.org/ bytes/16 (200)
+b'24ed57b0-5a8b-4497-9661-24b2d99e0cdb': fetched https://httpbin.org/ bytes/18 (200)
+b'24ed57b0-5a8b-4497-9661-24b2d99e0cdb': fetched https://httpbin.org/ bytes/23 (200)
+b'24ed57b0-5a8b-4497-9661-24b2d99e0cdb': fetched https://httpbin.org/ bytes/24 (200)
+b'24ed57b0-5a8b-4497-9661-24b2d99e0cdb': fetched https://httpbin.org/ bytes/28 (200)
+b'24ed57b0-5a8b-4497-9661-24b2d99e0cdb': fetched https://httpbin.org/ bytes/29 (200)
+b'24ed57b0-5a8b-4497-9661-24b2d99e0cdb': fetched https://httpbin.org/ bytes/30 (200)
+b'24ed57b0-5a8b-4497-9661-24b2d99e0cdb': fetched https://httpbin.org/ bytes/33 (200)
+[...]
+
+# Output from second instance:
+c40306bd-1e5b-4287-8f6d-1477ba98403a: fetched https://httpbin.org/ bytes/8 (200)
+c40306bd-1e5b-4287-8f6d-1477ba98403a: fetched https://httpbin.org/ bytes/12 (200)
+c40306bd-1e5b-4287-8f6d-1477ba98403a: fetched https://httpbin.org/ bytes/13 (200)
+c40306bd-1e5b-4287-8f6d-1477ba98403a: fetched https://httpbin.org/ bytes/15 (200)
+c40306bd-1e5b-4287-8f6d-1477ba98403a: fetched https://httpbin.org/ bytes/17 (200)
+c40306bd-1e5b-4287-8f6d-1477ba98403a: fetched https://httpbin.org/ bytes/19 (200)
+c40306bd-1e5b-4287-8f6d-1477ba98403a: fetched https://httpbin.org/ bytes/20 (200)
+c40306bd-1e5b-4287-8f6d-1477ba98403a: fetched https://httpbin.org/ bytes/21 (200)
+c40306bd-1e5b-4287-8f6d-1477ba98403a: fetched https://httpbin.org/ bytes/22 (200)
+c40306bd-1e5b-4287-8f6d-1477ba98403a: fetched https://httpbin.org/ bytes/25 (200)
+c40306bd-1e5b-4287-8f6d-1477ba98403a: fetched https://httpbin.org/ bytes/26 (200)
+c40306bd-1e5b-4287-8f6d-1477ba98403a: fetched https://httpbin.org/ bytes/27 (200)
+c40306bd-1e5b-4287-8f6d-1477ba98403a: fetched https://httpbin.org/ bytes/31 (200)
+c40306bd-1e5b-4287-8f6d-1477ba98403a: fetched https://httpbin.org/ bytes/32 (200)
+c40306bd-1e5b-4287-8f6d-1477ba98403a: fetched https://httpbin.org/ bytes/34 (200)
+[..]

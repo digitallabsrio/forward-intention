@@ -1,0 +1,7 @@
+import itertools
+a = [{'foo': 'bar'}, {'foo': 'bar', 'x': 42}, {'foo': 'baz', 'y': 43}]
+
+import operator
+print(list(itertools.groupby(a, operator.itemgetter('foo'))))
+
+print([(key, list(group)) for key, group in itertools.groupby(a, operator.itemgetter('foo'))])

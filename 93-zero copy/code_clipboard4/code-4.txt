@@ -1,0 +1,8 @@
+>>> ba = bytearray(8)
+>>> ba_at_4 = memoryview(ba)[4:] 
+>>> with open("/dev/urandom", "rb") as source:
+...   source.readinto(ba_at_4)
+...
+4
+>>> ba
+bytearray(b'\x00\x00\x00\x00\x0b\x19\xae\xb2')

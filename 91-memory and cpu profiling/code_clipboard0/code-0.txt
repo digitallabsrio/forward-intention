@@ -1,0 +1,2 @@
+$ python -m cProfile -o sample_script.cprof sample_script.py
+$ runsnake sample_script.cprof

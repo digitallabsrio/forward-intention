@@ -1,0 +1,7 @@
+from functools import partial
+from first import first
+
+def greater_than(number, min=0):
+    return number > min
+
+print(first([-1, 0, 1, 2], key=partial(greater_than, min=42)))

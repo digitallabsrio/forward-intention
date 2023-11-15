@@ -1,0 +1,9 @@
+keys = ['foobar', 'barzz', 'ba!']
+
+print(map(len, keys))
+
+print(zip(keys, map(len, keys)))
+
+print(list(zip(keys, map(len, keys))))
+
+print(dict(zip(keys, map(len, keys))))

@@ -1,0 +1,10 @@
+$ pifpaf run memcached
+export PIFPAF_DATA='/var/folders/7k/pwdhb_mj2cv4zyr0kyrlzjx40000gq/T/ tmpcVaCf4ŏ'
+export PIFPAF_MEMCACHED_PORT="11212";
+export PIFPAF_URL="memcached://localhost:11212";
+export PIFPAF_PID=68318;
+export PIFPAF_DAEMON="memcached";
+export PIFPAF_MEMCACHED_URL="memcached://localhost:11212";
+export PIFPAF_URLS="memcached://localhost:11212";
+pifpaf_stop () { if test -z '$PIFPAF_PID'; then echo 'No PID found in $PIFPAF_PID'; return -1; fi; if kill $PIFPAF_PID; then unset PIFPAF_PID; unset -f pifpaf_stop; fi; }
+$ kill 68318

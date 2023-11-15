@@ -1,0 +1,2 @@
+while True: message = get_message() if message == quit: break
+  process_message(message)

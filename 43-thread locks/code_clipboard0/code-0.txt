@@ -1,0 +1,6 @@
+$ python threading-lock.py
+hello
+thread started
+$ python threading-lock.py
+thread started
+hello

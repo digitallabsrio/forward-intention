@@ -1,0 +1,8 @@
+$ python2 threading-start.py
+hellothread started
+$ python2 threading-start.py
+hello
+thread started
+$ python2 threading-start.py
+hello
+thread started

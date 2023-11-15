@@ -1,0 +1,5 @@
+Time needed for `serialized' called: 12.12s
+Time needed for `Session' called: 11.22s
+Time needed for `FuturesSession w/ 2 workers' called: 5.65s
+Time needed for `FuturesSession w/ max workers' called: 1.25s
+Time needed for `aiohttp' called: 1.19s

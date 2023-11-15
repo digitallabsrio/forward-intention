@@ -1,0 +1,9 @@
+from itertools import groupby
+  
+mylist = [("A", 1), ("A", 2), ("B", 3), ("B", 4), ("C", 6), ("C", 7)] 
+  
+# Key function 
+getKey = lambda x: x[0] 
+  
+for key, group in groupby(mylist, getKey): 
+    print(key + " :", list(group)) 

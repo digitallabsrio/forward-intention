@@ -1,0 +1,7 @@
+from itertools import takewhile  
+
+# initializing list   
+mylist = [2, 4, 6, 7, 8, 10, 20]  
+    
+# using takewhile() to print values till condition is false.  
+print (list(takewhile(lambda x : x % 2 == 0, mylist ))) 

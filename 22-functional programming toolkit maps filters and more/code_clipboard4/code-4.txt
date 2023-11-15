@@ -1,0 +1,8 @@
+def all(iterable):
+  for x in iterable:
+    if not x:
+      return False
+  return True
+
+## Returns False because 0 is False
+print( all([1, 0, 3, 5]) )

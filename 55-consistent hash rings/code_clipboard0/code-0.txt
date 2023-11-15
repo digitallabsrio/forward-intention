@@ -1,0 +1,13 @@
+NUMBER_OF_NODES = 16
+
+# Step #1
+hr = hashring.HashRing(["node%d" % i for i in range(NUMBER_OF_NODES)])
+hr.get_nodes(b"some data")
+hr.get_nodes(b"some data", replicas=2)
+hr.get_nodes(b"some other data", replicas=3)
+hr.get_nodes(b"some other of my data", replicas=2)
+## Output:
+# {'node8'}
+# {'node8', 'node11'}
+# {'node6', 'node2', 'node13'}
+# {'node8', 'node7'}

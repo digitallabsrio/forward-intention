@@ -1,0 +1,6 @@
+import dis
+
+def x():
+    return 42
+
+dis.dis(x)

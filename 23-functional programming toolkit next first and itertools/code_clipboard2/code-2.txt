@@ -1,0 +1,8 @@
+# Less efficient
+list(filter(lambda x: x > 0, [-1, 0, 1, 2]))[0]
+
+# Efficient but for Python 3
+next(filter(lambda x: x > 0, [-1, 0, 1, 2]))
+
+# Efficient but for Python 2
+next(itertools.ifilter(lambda x: x > 0, [-1, 0, 1, 2]))

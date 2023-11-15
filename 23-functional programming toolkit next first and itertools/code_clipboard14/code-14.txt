@@ -1,0 +1,9 @@
+from itertools import cycle
+    
+count = 0
+     
+for i in cycle('EDUCATIVE'):  
+    if count > 15:  
+        break 
+    print(i, end = " ")  
+    count += 1

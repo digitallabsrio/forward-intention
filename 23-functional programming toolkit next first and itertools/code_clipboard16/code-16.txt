@@ -1,0 +1,7 @@
+from itertools import dropwhile
+
+# initializing list   
+mylist = [2, 4, 5, 8, 9, 10]  
+    
+# using dropwhile() to start displaying after condition is false  
+print (list(dropwhile(lambda x : x % 2 == 0, mylist))) 

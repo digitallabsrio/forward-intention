@@ -1,0 +1,4 @@
+$ python tooz-capabilities.py foo group1 sad >/dev/null &
+$ python tooz-capabilities.py bar group1 happ
+Member b'foo' has capabilities: {'mood': 'sad'}
+Member b'bar' has capabilities: {'mood': 'happy'}

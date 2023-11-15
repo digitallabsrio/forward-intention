@@ -1,0 +1,4 @@
+print( filter(lambda x: x.startswith('I '), ['I think', 'I\'m good']) )
+
+## filter wrapped in a list to print
+print( list(filter(lambda x: x.startswith('I '), ['I think', 'I\'m good'])) )

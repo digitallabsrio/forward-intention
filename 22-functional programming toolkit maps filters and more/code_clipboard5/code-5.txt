@@ -1,0 +1,8 @@
+def any(iterable):
+  for x in iterable:
+    if x:
+      return True
+  return False
+
+## Returns True because 1, 3 and 5 are True
+print( any([1, 0, 3, 5]) )

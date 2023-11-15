@@ -1,0 +1,3 @@
+[testenv]
+commands=memcached -p 12345 &
+        nosetests

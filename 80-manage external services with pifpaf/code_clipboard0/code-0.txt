@@ -1,0 +1,20 @@
+$ eval `pifpaf run redis -- pifpaf -e PIFPAF2 run memcached`
+$ env | grep PIFPAF_
+PIFPAF_REDIS_URL=redis://localhost:6379
+PIFPAF_PID=68205
+PIFPAF_DAEMON=redis
+PIFPAF_URLS=redis://localhost:6379;memcached://localhost:11212
+PIFPAF_DATA=/var/folders/7k/pwdhb_mj2cv4zyr0kyrlzjx40000gq/T/tmpnF2jXa
+PIFPAF_REDIS_PORT=6379
+PIFPAF_URL=redis://localhost:6379
+$ env | grep PIFPAF2_
+PIFPAF2_MEMCACHED_PORT=11212
+PIFPAF2_DAEMON=memcached
+PIFPAF2_MEMCACHED_URL=memcached://localhost:11212
+PIFPAF2_PID=68207
+PIFPAF2_URL=memcached://localhost:11212
+PIFPAF2_DATA=/var/folders/7k/pwdhb_mj2cv4zyr0kyrlzjx40000gq/T/ tmpTRsMJc
+$ ps aux
+  PID TTY TIME CMD
+68206 ttys001 0:00.05 redis-server *:6379
+68208 ttys001 0:00.04 memcached -vv -p 11212

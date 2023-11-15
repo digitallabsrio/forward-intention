@@ -1,0 +1,9 @@
+$ rq worker http
+RQ worker 'rq:worker:abydos.95246' started, version 0.8.2
+Cleaning registries for queue: http
+
+*** Listening on http...
+http: requests.api.get('http://httpbin.org/delay/1') (8cb8ad47-e873-4 b78-8cfd-e94f39170343)
+http: Job OK (8cb8ad47-e873-4b78-8cfd-e94f39170343)
+Result is kept for 300 seconds
+*** Listening on http...

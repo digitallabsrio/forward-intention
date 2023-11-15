@@ -1,0 +1,8 @@
+s = b"abcdefgh"
+view = memoryview(s)
+print('View[1]: ', view[1]) # 98 is the ASCII code for the letter b.
+
+limited = view[1:3]
+print('limited: ', limited)
+
+print('bytes(view[1:3]): ', bytes(view[1:3]))

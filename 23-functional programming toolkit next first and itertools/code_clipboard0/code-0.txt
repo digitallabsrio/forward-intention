@@ -1,0 +1,7 @@
+def first_positive_number(numbers):
+  for n in numbers:
+    if n > 0:
+      return n
+
+mylist = [-1, -10, 5, 7, -3, 8]
+print( first_positive_number(mylist) )

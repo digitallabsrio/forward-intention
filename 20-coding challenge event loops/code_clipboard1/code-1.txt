@@ -1,0 +1,12 @@
+## Import other libraries if you want (asyncio and aiohttp are supported)
+import time
+
+urls = ["http://educative.io", "http://educative.io/blog", "http://youtube.com"]
+
+##########################################
+### Start your code here
+
+
+### End code here
+##########################################
+print("Results: %s" % results)

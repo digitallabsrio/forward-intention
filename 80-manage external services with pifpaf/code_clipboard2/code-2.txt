@@ -1,0 +1,4 @@
+$ eval `pifpaf run memcached`
+$ echo $PIFPAF_URL
+memcached://localhost:11212
+$ pifpaf_stop

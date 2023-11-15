@@ -1,0 +1,7 @@
+ba = bytearray(8)
+print('ba: ', ba)
+
+with open("/dev/urandom", "rb") as source:
+    print('source.readinto(ba): ', source.readinto(ba))
+
+print('ba: ', ba)

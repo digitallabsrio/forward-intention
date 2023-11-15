@@ -1,0 +1,4 @@
+$ python tooz-join-partitioned-group.py client1 test-group
+{b'client1'}
+$ python tooz-join-partitioned-group.py client2 test-group
+{b'client2'}

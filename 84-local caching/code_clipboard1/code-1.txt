@@ -1,0 +1,21 @@
+$ python
+[...]
+>>> import cachetools
+>>> cache = cachetools.LRUCache(maxsize=3)
+>>> cache['foo']=1
+>>> cache['bar'] = 42
+>>> cache
+LRUCache([('foo', 1), ('bar', 42)], maxsize=3, currsize=2)
+>>> cache['bar']
+42
+>>> cache['foo']
+1
+>>> cache[12]
+Traceback (most recent call last):
+[...]
+KeyError: 12
+>>> cache['baz'] = 33
+>>> cache['babar'] = 32
+>>> cache
+LRUCache([('foo', 1), ('baz', 33), ('babar', 32)], maxsize=3, currsize=3)
+>>> 

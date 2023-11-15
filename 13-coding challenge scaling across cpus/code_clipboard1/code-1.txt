@@ -1,0 +1,16 @@
+# Relevant libraries are imported already
+import random
+import threading
+
+# mylist contains 1 million entries ranging from 1 to 100000000
+mylist = [random.randint(1, 100000000) for i in range(1000000)]
+minimum = 0
+########
+# Your code goes here #
+
+
+#   Code until here   #
+########
+
+# Result:
+print("Global Minimum: ", minimum)
